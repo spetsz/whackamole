@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body{
+  background-color: #ddd;
+  height : 100vh;
+  width : 100vw;
+  box-sizing : "border-box";
+  font-family : "Roboto Mono", sans-serif;
+  padding : 0;
+  margin : 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.box{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows:90px 90px 90px;
+  border : 2px solid black;
+  border-radius : 5px;
+}
+
+.cell{
+  cursor: url('./img/gavel.png'), default;
+  background-color: initial;
+  border-radius: 10px;
+}
+
+#score{
+  margin-left: 10px;
+}
+
+#reset{
+  margin-left: 635px;
+  color:blue;
+}
+
+
+#highlight{
+  color: red;
+}
+
